@@ -15,7 +15,7 @@ module.exports = {
     // Get one User
     async getOneUser(req, res) {
         try {
-            const user = await User.findOne({ _id: req.params.userID }).select(
+            const user = await User.findOne({ _id: req.params.userId }).select(
                 "-__v"
             );
 
