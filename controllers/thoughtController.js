@@ -16,7 +16,7 @@ module.exports = {
     async getOneThought(req, res) {
         try {
             const thought = await Thought.findOne({
-                _id: req.params.thoughtsId,
+                _id: req.params.thoughtId,
             }).select("-__v");
 
             if (!thought) {
