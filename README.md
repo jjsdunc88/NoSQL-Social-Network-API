@@ -2,7 +2,9 @@
  
   ## Description
 
-  description
+  In this Challenge, we built an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. We used Express.js for routing, a MongoDB database and the Mongoose ODM.
+
+  I used Day.js for the date and timestamps.
 
 
 
@@ -30,7 +32,10 @@
 
   ## Usage
 
-  NA
+  [Please click here is the video does not display](https://drive.google.com/file/d/13kRmTv2rT0gsM-p22-DsfKXaf-SMpLhs/view)
+
+  
+
 
 
 
@@ -41,17 +46,6 @@
   Please see link for additional information:
   (https://opensource.org/licenses/MIT)
 
-
-
-  ## Contributing
-
-  NA
-
-
-
-  ## Tests
-
-  npm run test
 
 
 
